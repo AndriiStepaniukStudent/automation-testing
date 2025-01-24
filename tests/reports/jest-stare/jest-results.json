@@ -1,0 +1,147 @@
+{
+  "numFailedTestSuites": 1,
+  "numFailedTests": 1,
+  "numPassedTestSuites": 0,
+  "numPassedTests": 5,
+  "numPendingTestSuites": 0,
+  "numPendingTests": 0,
+  "numRuntimeErrorTestSuites": 0,
+  "numTodoTests": 0,
+  "numTotalTestSuites": 1,
+  "numTotalTests": 6,
+  "openHandles": [],
+  "snapshot": {
+    "added": 0,
+    "didUpdate": false,
+    "failure": false,
+    "filesAdded": 0,
+    "filesRemoved": 0,
+    "filesRemovedList": [],
+    "filesUnmatched": 0,
+    "filesUpdated": 0,
+    "matched": 0,
+    "total": 0,
+    "unchecked": 0,
+    "uncheckedKeysByFile": [],
+    "unmatched": 0,
+    "updated": 0
+  },
+  "startTime": 1737739765998,
+  "success": false,
+  "testResults": [
+    {
+      "leaks": false,
+      "numFailingTests": 1,
+      "numPassingTests": 5,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1737739776413,
+        "runtime": 10373,
+        "slow": true,
+        "start": 1737739766040
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "/Users/astepaniuk/lab/google.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [],
+          "duration": 1500,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Google homepage is accessible",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Google homepage is accessible"
+        },
+        {
+          "ancestorTitles": [],
+          "duration": 447,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Search input field is present",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Search input field is present"
+        },
+        {
+          "ancestorTitles": [],
+          "duration": 378,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Search button is present",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Search button is present"
+        },
+        {
+          "ancestorTitles": [],
+          "duration": 191,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Incorrect URL does not load Google",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Incorrect URL does not load Google"
+        },
+        {
+          "ancestorTitles": [],
+          "duration": 5523,
+          "failureDetails": [
+            {
+              "name": "TimeoutError",
+              "remoteStacktrace": ""
+            }
+          ],
+          "failureMessages": [
+            "TimeoutError: Waiting for element to be located By(css selector, *[id=\"search\"])\nWait timed out after 5097ms\n    at /Users/astepaniuk/lab/node_modules/selenium-webdriver/lib/webdriver.js:929:22\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)"
+          ],
+          "fullName": "Search functionality works",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryReasons": [],
+          "status": "failed",
+          "title": "Search functionality works"
+        },
+        {
+          "ancestorTitles": [],
+          "duration": 856,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Element does not exist on page",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Element does not exist on page"
+        }
+      ],
+      "failureMessage": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mSearch functionality works\u001b[39m\u001b[22m\n\n    TimeoutError: Waiting for element to be located By(css selector, *[id=\"search\"])\n    Wait timed out after 5097ms\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat \u001b[22m\u001b[2mnode_modules/selenium-webdriver/lib/webdriver.js\u001b[2m:929:22\u001b[22m\u001b[2m\u001b[22m\n"
+    }
+  ],
+  "wasInterrupted": false
+}

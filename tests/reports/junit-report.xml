@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="6" failures="1" errors="0" time="10.434">
+  <testsuite name="undefined" errors="0" failures="1" skipped="0" timestamp="2025-01-24T17:29:26" time="10.373" tests="6">
+    <testcase classname=" Google homepage is accessible" name=" Google homepage is accessible" time="1.5">
+    </testcase>
+    <testcase classname=" Search input field is present" name=" Search input field is present" time="0.447">
+    </testcase>
+    <testcase classname=" Search button is present" name=" Search button is present" time="0.378">
+    </testcase>
+    <testcase classname=" Incorrect URL does not load Google" name=" Incorrect URL does not load Google" time="0.191">
+    </testcase>
+    <testcase classname=" Search functionality works" name=" Search functionality works" time="5.523">
+      <failure>TimeoutError: Waiting for element to be located By(css selector, *[id=&quot;search&quot;])
+Wait timed out after 5097ms
+    at /Users/astepaniuk/lab/node_modules/selenium-webdriver/lib/webdriver.js:929:22
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)</failure>
+    </testcase>
+    <testcase classname=" Element does not exist on page" name=" Element does not exist on page" time="0.856">
+    </testcase>
+  </testsuite>
+</testsuites>
