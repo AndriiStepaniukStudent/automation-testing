@@ -1,17 +1,15 @@
-# Laboratory Works Repository
+![alt text](image.png)
+Для виправлення дефекту недостатнього контрасту між кольором тексту (foreground) і фону (background) згідно стандартів WCAG 2 AA, можна застосувати наступні способи:
 
-This repository contains laboratory works for various topics. Each laboratory work is organized in its own branch, with relevant code and documentation.
+1. Зміна кольору фону
+Збільшити контраст фону кнопки, використовуючи темніший відтінок зеленого кольору. Наприклад:
 
-## Branch Structure
+Заміна кольору фону з #00a046 на більш темний відтінок, наприклад #00803e.
+2. Зміна кольору тексту
+Збільшити яскравість тексту, зробивши його темнішим. Наприклад:
 
-- **main**: The main branch contains the final version of the repository.
-- **lab1**: Branch for Laboratory Work 1 - [description of lab 1].
-- **lab2**: Branch for Laboratory Work 2 - [description of lab 2].
-- **lab3**: Branch for Laboratory Work 3 - [description of lab 3].
-- ... (add more labs here)
+Заміна білого кольору тексту #ffffff на більш темний відтінок, наприклад #333333 або #000000.
+Розрахунок контрасту:
+Враховуючи, що очікуваний контраст має бути мінімум 4.5:1, варто перевірити нові значення кольорів за допомогою інструментів для перевірки контрасту (наприклад, WebAIM Contrast Checker) після зміни кольорів.
 
-## How to Use
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/repository-name.git
+Ці зміни допоможуть забезпечити доступність кнопки для людей з обмеженим зором, покращуючи видимість тексту на фоні.
